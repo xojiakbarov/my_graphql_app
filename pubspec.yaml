@@ -1,0 +1,24 @@
+name: my_graphql_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  graphql_flutter: ^5.1.2
+  json_serializable: ^6.7.1
+  smartrefresh: ^0.0.2
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
